@@ -1,0 +1,16 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "react/jsx-sort-props": 2,
+    "react/sort-prop-types": 2
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module-alias": {}
+    }
+  }
+}
